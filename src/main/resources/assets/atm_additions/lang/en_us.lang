@@ -1,8 +1,18 @@
-fluid.Molten_Sand= Molten Vitrified Sand
-fluid.Liquid_Grout=Molten Grout
-fluid.Soldering_Alloy=Soldering Alloy
-fluid.Corrupted_Starlight=Corrupted Starlight
+fluid.vitrified_sand= Molten Vitrified Sand
+fluid.grout=Molten Grout
+fluid.soldering_alloy=Molten Soldering Alloy
+fluid.corrupted_starlight=Corrupted Starlight
+
+tile.atm_additions.vitrified_sand.name=Molten Vitrified Sand
+tile.atm_additions.grout.name=Molten Grout
+tile.atm_additions.soldering_alloy.name=Molten Soldering Alloy
+tile.atm_additions.corrupted_starlight.name=Corrupted Starlight
+
 material.vitrified_sand.name=Vitrified Sand
+
+tile.atm_additions.infusion_block.name=Infusion Block
+tile.atm_additions.magma_soaked_cobblestone.name=Magma Soaked Cobblestone
+
 item.atm_additions.manaDiamondPlate.name=Mana Diamond Plate
 item.atm_additions.coldIronIngot.name=Cold Iron Ingot
 item.atm_additions.coldIronPlate.name=Cold Iron Plate
@@ -10,8 +20,6 @@ item.atm_additions.unrefinedHotSteelIngot.name=Cracked Hot Steel Ingot
 item.atm_additions.quartzIngot.name=Quartz Ingot
 item.atm_additions.quartzPlate.name=Quartz Plate
 item.atm_additions.manaSteelPlate.name=Manasteel Plate
-tile.atm_additions.infusion_block.name=Infusion Block
-tile.atm_additions.magma_soaked_cobblestone.name=Magma Soaked Cobblestone
 item.atm_additions.corruptedStarmetal.name=Corrupted Starmetal Ingot
 item.atm_additions.crystallisedBlood.name=Crystallised Blood Pile
 item.atm_additions.elementiumProcessor.name=Elementium Processor

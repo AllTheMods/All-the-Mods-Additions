@@ -23,13 +23,11 @@ public class StateMapper extends StateMapperBase implements ItemMeshDefinition {
 
     @Override
     protected ModelResourceLocation getModelResourceLocation(IBlockState state) {
-
         return location;
     }
 
     @Override
     public ModelResourceLocation getModelLocation(ItemStack stack) {
-
         return location;
     }
 }

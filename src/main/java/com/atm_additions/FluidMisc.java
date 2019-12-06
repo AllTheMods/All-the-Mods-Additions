@@ -1,5 +1,6 @@
 package com.atm_additions;
 
+import net.minecraft.block.material.MapColor;
 import net.minecraft.init.SoundEvents;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.SoundEvent;
@@ -11,10 +12,16 @@ public class FluidMisc extends Fluid {
     protected static SoundEvent emptySound = SoundEvents.ITEM_BUCKET_EMPTY;
     protected static SoundEvent fillSound = SoundEvents.ITEM_BUCKET_FILL;
     boolean molten;
-    public FluidMisc(String fluidName, boolean molten) {
-        super(fluidName, new ResourceLocation(ATMAdditions.MODID, "fluids/" + fluidName), new ResourceLocation(ATMAdditions.MODID, "fluids/" + fluidName + "flowing"), Color.WHITE);
+    MapColor mapColor;
+    public FluidMisc(String fluidName, boolean molten, MapColor mapColor) {
+        super(fluidName, new ResourceLocation(ATMAdditions.MODID, "fluids/" + fluidName + "_still"), new ResourceLocation(ATMAdditions.MODID, "fluids/" + fluidName + "_flowing"), Color.WHITE);
         this.molten = molten;
         this.temperature = calculateTemperature();
+        this.mapColor = mapColor;
+    }
+
+    public MapColor getMapColor() {
+        return mapColor;
     }
 
     public int calculateTemperature() {
