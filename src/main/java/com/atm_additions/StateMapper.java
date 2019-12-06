@@ -6,6 +6,12 @@ import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.client.renderer.block.statemap.StateMapperBase;
 import net.minecraft.item.ItemStack;
 
+/**
+ * Copied from cofh core as permitted by the license.
+ * Extremely simple StateMapper implementation.
+ *
+ * @author King Lemming
+ */
 public class StateMapper extends StateMapperBase implements ItemMeshDefinition {
 
     public final ModelResourceLocation location;
