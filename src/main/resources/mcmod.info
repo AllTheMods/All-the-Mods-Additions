@@ -1,0 +1,16 @@
+[
+{
+  "modid": "atm_additions",
+  "name": "All the Mods Additions",
+  "description": "A modthat adds a few items and fluids for atm3 expert shedding teir pack.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Trinsdar"],
+  "credits": "The Forge and FML guys, for making this example",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
