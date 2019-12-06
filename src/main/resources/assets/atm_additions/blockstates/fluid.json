@@ -1,0 +1,36 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "forge:fluid"
+	},
+	"variants": {
+		"grout": [
+			{
+				"custom": {
+					"fluid": "grout"
+				}
+			}
+		],
+		"vitrified_sand": [
+			{
+				"custom": {
+					"fluid": "vitrified_sand"
+				}
+			}
+		],
+		"corrupted_starlight": [
+			{
+				"custom": {
+					"fluid": "corrupted_starlight"
+				}
+			}
+		],
+		"soldering_alloy": [
+			{
+				"custom": {
+					"fluid": "soldering_alloy"
+				}
+			}
+		]
+	}
+}
