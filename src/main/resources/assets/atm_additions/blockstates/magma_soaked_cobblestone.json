@@ -1,0 +1,16 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "texture": "atm_additions:blocks/magma_soaked_cobblestone",
+      "particle": "atm_additions:blocks/magma_soaked_cobblestone"
+    },
+    "model": "atm_additions:storage",
+    "uvlock": true,
+    "transform": "forge:default-block"
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}]
+  }
+}
