@@ -9,6 +9,7 @@ tile.atm_additions.soldering_alloy.name=Molten Soldering Alloy
 tile.atm_additions.corrupted_starlight.name=Corrupted Starlight
 
 material.vitrified_sand.name=Vitrified Sand
+material.soldering_alloy.name=Soldering Alloy
 
 tile.atm_additions.infusion_block.name=Infusion Block
 tile.atm_additions.magma_soaked_cobblestone.name=Magma Soaked Cobblestone

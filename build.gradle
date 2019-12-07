@@ -46,6 +46,18 @@ repositories{
 
 dependencies {
     runtime "mezz.jei:jei_${mc_version}:${jei_version}"
+    deobfProvided ("slimeknights.mantle:Mantle:1.12-${mantle_version}") {
+        exclude group: 'mezz.jei'
+    }
+    runtime ("slimeknights.mantle:Mantle:1.12-${mantle_version}") {
+        exclude group: 'mezz.jei'
+    }
+    deobfProvided ("slimeknights:TConstruct:${mc_version}-${tconstruct_version}") {
+        exclude group: 'mezz.jei'
+    }
+    runtime ("slimeknights:TConstruct:${mc_version}-${tconstruct_version}") {
+        exclude group: 'mezz.jei'
+    }
 }
 
 processResources {

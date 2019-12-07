@@ -2,6 +2,7 @@ package com.atm_additions;
 
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraftforge.fluids.FluidRegistry;
+import net.minecraftforge.fml.common.Loader;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.relauncher.Side;
@@ -25,6 +26,9 @@ public class ATMAdditions {
     public synchronized void preInit(FMLPreInitializationEvent event) {
         logger = event.getModLog();
         Registry.register();
+        if (Loader.isModLoaded("tconstruct")){
+            TiCCompat.initMaterials();
+        }
         if (event.getSide() == Side.CLIENT){
             Registry.registerModels();
         }
