@@ -11,6 +11,7 @@ import net.minecraft.world.World;
 import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.event.ForgeEventFactory;
 import net.minecraftforge.fluids.BlockFluidClassic;
+import net.minecraftforge.fluids.Fluid;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
@@ -114,6 +115,12 @@ public class FluidBlockMisc extends BlockFluidClassic {
         } else {
             super.updateTick(world, pos, state, rand);
         }
+    }
+
+    @Override
+    public Fluid getFluid()
+    {
+        return fluid;
     }
 
     @Override

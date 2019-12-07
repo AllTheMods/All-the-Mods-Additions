@@ -1,6 +1,7 @@
 package com.atm_additions;
 
 import net.minecraft.creativetab.CreativeTabs;
+import net.minecraftforge.fluids.FluidRegistry;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.relauncher.Side;
@@ -15,6 +16,10 @@ public class ATMAdditions {
     public static final CreativeTabs creativeTab = new CreativeTabATMAdditions(MODID);
 
     public static Logger logger;
+
+    static {
+        FluidRegistry.enableUniversalBucket();
+    }
 
     @Mod.EventHandler
     public synchronized void preInit(FMLPreInitializationEvent event) {

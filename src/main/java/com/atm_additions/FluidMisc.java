@@ -18,6 +18,10 @@ public class FluidMisc extends Fluid {
         this.molten = molten;
         this.temperature = calculateTemperature();
         this.mapColor = mapColor;
+        if (molten){
+            this.setViscosity(6000);
+            this.setDensity(3000);
+        }
     }
 
     public MapColor getMapColor() {
