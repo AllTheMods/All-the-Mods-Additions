@@ -2,6 +2,6 @@
   "parent": "item/generated",
   "textures":
   {
-    "layer0": "alltheitems:item/nexium_emitter"
+    "layer0": "atmadditions:item/dragon_soul"
   }
 }

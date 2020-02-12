@@ -2,6 +2,6 @@
   "parent": "item/generated",
   "textures":
   {
-    "layer0": "alltheitems:item/dragon_soul"
+    "layer0": "atmadditions:item/philosophers_fuel"
   }
 }

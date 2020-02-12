@@ -2,6 +2,6 @@
   "parent": "item/generated",
   "textures":
   {
-    "layer0": "alltheitems:item/atm_star"
+    "layer0": "atmadditions:item/withers_compass"
   }
 }
