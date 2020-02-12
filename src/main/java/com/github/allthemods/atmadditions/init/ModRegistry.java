@@ -22,7 +22,9 @@ public class ModRegistry
     public static final RegistryObject<Item> NEXIUM_EMITTER = ITEMS.register("nexium_emitter", () -> new Item(new Item.Properties().group(ModItemGroups.ATM_ADDITIONS)));
     public static final RegistryObject<Item> DRAGON_SOUL = ITEMS.register("dragon_soul", () -> new Item(new Item.Properties().group(ModItemGroups.ATM_ADDITIONS)));
     public static final RegistryObject<Item> WITHERS_COMPASS = ITEMS.register("withers_compass", () -> new Item(new Item.Properties().group(ModItemGroups.ATM_ADDITIONS)));
-
+    public static final RegistryObject<Item> MINIATURIZED_BLACK_HOLE = ITEMS.register("miniaturized_black_hole", () -> new Item(new Item.Properties().group(ModItemGroups.ATM_ADDITIONS)));
+    public static final RegistryObject<Item> OBLIVION_SHARD = ITEMS.register("oblivion_shard", () -> new Item(new Item.Properties().group(ModItemGroups.ATM_ADDITIONS)));
+    public static final RegistryObject<Item> IMPROBABLE_PROBABILITY_DEVICE = ITEMS.register("improbable_probability_device", () -> new Item(new Item.Properties().group(ModItemGroups.ATM_ADDITIONS)));
 
     public static void register()
     {
