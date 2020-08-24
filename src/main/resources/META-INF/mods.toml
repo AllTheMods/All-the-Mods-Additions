@@ -6,7 +6,9 @@
 # The name of the mod loader type to load - for regular FML @Mod mods it should be javafml
 modLoader="javafml" #mandatory
 # A version range to match for said mod loader - for regular FML @Mod it will be the forge version
-loaderVersion="[31,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
+loaderVersion="[33,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
+# Apparently I gotta put a license here. /shrug
+license="I'll burn this bridge when I get to it."
 # A URL to refer people to when problems occur with this mod
 issueTrackerURL="https://github.com/AllTheMods/All-the-Mods-Additions/issues" #optional
 # A list of mods - how many allowed here is determined by the individual mod loader
@@ -24,7 +26,7 @@ displayName="All The Mods: Additions" #mandatory
 # A file name (in the root of the mod JAR) containing a logo for display
 # logoFile="examplemod.png" #optional
 # A text field displayed in the mod UI
-credits="Thanks to the ATM Team for getting us this far" #optional
+credits="Thanks to the ATM Team for getting us this far, as well as Vik for the updated textures" #optional
 # A text field displayed in the mod UI
 authors="TheGoldCrayon" #optional
 # The description text for the mod (multi line!) (#mandatory)
@@ -47,6 +49,6 @@ This is a mod with a few item additions used primarily for ATM modpacks, includi
 [[dependencies.examplemod]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.15.2]"
+    versionRange="[1.16.2]"
     ordering="NONE"
     side="BOTH"

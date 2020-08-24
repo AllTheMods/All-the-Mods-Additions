@@ -13,7 +13,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 public class ModRegistry
 {
     //public static final DeferredRegister<Block> BLOCKS = new DeferredRegister<>(ForgeRegistries.BLOCKS, ATMAdditions.MODID);
-    public static final DeferredRegister<Item> ITEMS = new DeferredRegister<>(ForgeRegistries.ITEMS, ATMAdditions.MODID);
+    public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, ATMAdditions.MODID);
 
     //Blocks
 
