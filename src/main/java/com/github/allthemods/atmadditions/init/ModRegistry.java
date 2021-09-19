@@ -9,6 +9,7 @@ import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
+import org.lwjgl.system.CallbackI;
 
 public class ModRegistry
 {
@@ -20,6 +21,7 @@ public class ModRegistry
 
     //Items
     public static final RegistryObject<Item> ATM_STAR = ITEMS.register("atm_star", () -> new ATMStarItem());
+    public static final RegistryObject<Item> ATM_STAR_SHARD = ITEMS.register("atm_star_shard", () -> new ATMStarItem());
     public static final RegistryObject<Item> PHILOSOPHERS_FUEL = ITEMS.register("philosophers_fuel", () -> new Item(new Item.Properties().group(ModItemGroups.ATM_ADDITIONS)));
     public static final RegistryObject<Item> NEXIUM_EMITTER = ITEMS.register("nexium_emitter", () -> new Item(new Item.Properties().group(ModItemGroups.ATM_ADDITIONS)));
     public static final RegistryObject<Item> DRAGON_SOUL = ITEMS.register("dragon_soul", () -> new Item(new Item.Properties().group(ModItemGroups.ATM_ADDITIONS)));
