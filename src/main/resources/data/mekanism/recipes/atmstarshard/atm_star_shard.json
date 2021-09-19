@@ -6,7 +6,8 @@
     }
   },
   "output": {
-    "item": "atmadditions:atm_star_shard"
+    "item": "atmadditions:atm_star_shard",
+    "count": 5
   },
   "conditions": [
         {

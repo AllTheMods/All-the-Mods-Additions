@@ -1,0 +1,19 @@
+{
+  "type": "immersiveengineering:crusher",
+  "secondaries": [
+  ],
+  "result": {
+    "item": "atmadditions:atm_star_shard",
+    "count": 5
+  },
+  "input": {
+    "item": "atmadditions:atm_star"
+  },
+  "energy": 3200,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mekanism"
+    }
+  ]
+}
