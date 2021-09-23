@@ -4,11 +4,11 @@ import com.github.allthemods.atmadditions.init.ModItemGroups;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 
-public class ATMStarItem extends Item
+public class ATMCatalyst extends Item
 {
-    public ATMStarItem()
+    public ATMCatalyst()
     {
-        super(new Properties().group(ModItemGroups.ATM_ADDITIONS).maxStackSize(1));
+        super(new Properties().group(ModItemGroups.ATM_ADDITIONS));
     }
 
     @Override

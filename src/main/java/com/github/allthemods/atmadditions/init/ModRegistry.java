@@ -1,6 +1,8 @@
 package com.github.allthemods.atmadditions.init;
 
 import com.github.allthemods.atmadditions.ATMAdditions;
+import com.github.allthemods.atmadditions.item.ATMCatalyst;
+import com.github.allthemods.atmadditions.item.ATMShardItem;
 import com.github.allthemods.atmadditions.item.ATMStarItem;
 import com.github.allthemods.atmadditions.item.WithersCompassItem;
 import net.minecraft.block.Block;
@@ -21,8 +23,8 @@ public class ModRegistry
 
     //Items
     public static final RegistryObject<Item> ATM_STAR = ITEMS.register("atm_star", () -> new ATMStarItem());
-    public static final RegistryObject<Item> ATM_STAR_SHARD = ITEMS.register("atm_star_shard", () -> new ATMStarItem());
-    public static final RegistryObject<Item> ALLTHECATALYSTIUM = ITEMS.register("allthecatalystium", () -> new ATMStarItem());
+    public static final RegistryObject<Item> ATM_STAR_SHARD = ITEMS.register("atm_star_shard", () -> new ATMShardItem());
+    public static final RegistryObject<Item> ALLTHECATALYSTIUM = ITEMS.register("allthecatalystium", () -> new ATMCatalyst());
     public static final RegistryObject<Item> PHILOSOPHERS_FUEL = ITEMS.register("philosophers_fuel", () -> new Item(new Item.Properties().group(ModItemGroups.ATM_ADDITIONS)));
     public static final RegistryObject<Item> NEXIUM_EMITTER = ITEMS.register("nexium_emitter", () -> new Item(new Item.Properties().group(ModItemGroups.ATM_ADDITIONS)));
     public static final RegistryObject<Item> DRAGON_SOUL = ITEMS.register("dragon_soul", () -> new Item(new Item.Properties().group(ModItemGroups.ATM_ADDITIONS)));
