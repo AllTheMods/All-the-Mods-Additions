@@ -1,0 +1,18 @@
+{
+  "type": "mekanism:crushing",
+  "input": {
+    "ingredient": {
+      "item": "atmadditions:atm_star"
+    }
+  },
+  "output": {
+    "item": "atmadditions:atm_star_shard",
+    "count": 5
+  },
+  "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "mekanism"
+        }
+  ]
+}
